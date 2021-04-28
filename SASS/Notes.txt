@@ -1,0 +1,18 @@
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://sass-lang.com/
+https://sass-lang.com/guide - Variables, Nesting, Mixins, Partials, Modules, Inheritance, Operators
+
+
+npm install -g sass
+sass input.scss output.css 
+sass --watch input.scss output.css
+
+2 Types of Syntaxes
+.scss - Brackets, Semicolon, More Popular
+.saas - Indentation, Newline
+
+
+
+When you install Sass on the command line, you'll be able to run the sass executable to compile .sass and .scss files to .css files. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
