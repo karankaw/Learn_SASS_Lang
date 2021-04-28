@@ -1,4 +1,4 @@
- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 https://sass-lang.com/
 https://sass-lang.com/guide - Variables, Nesting, Mixins, Partials, Modules, Inheritance, Operators
 
@@ -16,3 +16,18 @@ sass --watch input.scss output.css
 When you install Sass on the command line, you'll be able to run the sass executable to compile .sass and .scss files to .css files. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://dev.to/olawanle_joel/sass-vs-scss-odf
+https://stackoverflow.com/questions/5654447/whats-the-difference-between-scss-and-sass/5654511#5654511
+From the homepage of the language
+
+Sass has two syntaxes. The new main syntax (as of Sass 3) is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax.
+ This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.
+
+The second, older syntax is known as the indented syntax (or just “Sass”). 
+Inspired by Haml’s terseness, it’s intended for people who prefer conciseness over similarity to CSS.
+Instead of brackets and semicolons, it uses the indentation of lines to specify blocks. 
+Although no longer the primary syntax, the indented syntax will continue to be supported. Files in the indented syntax use the extension .sass.
+
+SASS is an interpreted language that spits out CSS. The structure of Sass looks like CSS (remotely), but it seems to me that the description is a bit misleading; it's not a replacement for CSS, or an extension. 
+It's an interpreter which spits out CSS in the end, so Sass still has the limitations of normal CSS, but it masks them with simple code.
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
